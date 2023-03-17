@@ -1,11 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3cc293f-a752-4282-aa8b-f7337835cdba" name="Changes" comment="" />
+    <list default="true" id="d3cc293f-a752-4282-aa8b-f7337835cdba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/screenshots/generalUITest-2023-3-15-23-30-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/generalUITest-2023-3-15-23-31-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/generalUITest-2023-3-15-23-33-56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/generalUITest-2023-3-16-10-49-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/localSuitesTest-2023-3-14-16-17-34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/localSuitesTest-2023-3-14-16-18-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/loginWithCorrectData-2023-3-15-22-16-36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/page/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/support_function/SwipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test_data/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test_data/authentication/ShippingData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test_data/models/ShippingDataObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test_flows/authentication/CheckItemDetailsFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test_flows/function/OrderItemFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/Buy2ItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/CheckItemDetailsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/LocalConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/context/Contexts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/context/WaitMoreThanOneContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/driver/AppPackages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/driver/DriverFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/driver/DriverFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/driver/MobileCapabilityTypeEx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/components/global/BottomNavComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/components/home_screen/ProductItemComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/components/login_screen/LoginComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/page/UserPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/platform/Platform.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test-suites/Android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_data/DataObjectBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_data/models/LoginData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_flows/BaseFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_flows/authentication/GeneralUIFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_flows/authentication/LoginFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tests/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tests/authentication/GeneralUITest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tests/authentication/LocalConnectionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tests/authentication/LocalSuitesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tests/authentication/LoginWithCorrectDataTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tests/authentication/LoginWithIncorrectDataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDETPRO e-commerce app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDETPRO e-commerce app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/AppPackages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/AppPackages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/components/global/BottomNavComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/components/global/BottomNavComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/components/home_screen/ProductItemComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/components/home_screen/ProductItemComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/components/login_screen/LoginComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/components/login_screen/LoginComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/page/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/page/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_data/DataObjectBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_data/DataObjectBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_data/authentication/IncorrectLoginData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_data/authentication/IncorrectLoginData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_data/models/LoginData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_data/models/LoginData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_flows/BaseFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_flows/BaseFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_flows/authentication/GeneralUIFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_flows/authentication/GeneralUIFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_flows/authentication/LoginFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_flows/authentication/LoginFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/authentication/CancelOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/CancelOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/authentication/GeneralUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/GeneralUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/authentication/LocalSuitesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/LocalSuitesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/authentication/LoginWithCorrectDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/LoginWithCorrectDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/authentication/LoginWithIncorrectDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/authentication/LoginWithIncorrectDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test-suites/Android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test-suites/Android.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MzuX03i0A9tYmrWyw6GQw6BGtv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,12 +97,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/SOURCE_CODE/SDETPRO e-commerce app/src/main/java/test_data/authentication&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SOURCE_CODE\SDETPRO e-commerce app\src\main\java\test_data\authentication" />
+      <recent name="E:\SOURCE_CODE\SDETPRO e-commerce app" />
+      <recent name="E:\SOURCE_CODE\SDETPRO e-commerce app\src\main\resources\test-suites" />
+      <recent name="E:\SOURCE_CODE\SDETPRO e-commerce app\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.authentication" />
+      <recent name="support_function" />
+      <recent name="test_data" />
+      <recent name="tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Android">
+    <configuration name="LocalConnectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.authentication.LocalConnectionTest" />
+      <module name="SDETPRO e-commerce app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Android" type="TestNG">
+      <module name="SDETPRO e-commerce app" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/test-suites/Android.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="remote" value="true" />
+        <env name="hub" value="http://192.168.0.104" />
+      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalSuitesTest.localSuitesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SDETPRO e-commerce app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.authentication" />
+      <option name="MAIN_CLASS_NAME" value="tests.authentication.LocalSuitesTest" />
+      <option name="METHOD_NAME" value="localSuitesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LocalConnectionTest" />
+      <item itemvalue="TestNG.Android" />
+      <item itemvalue="TestNG.LocalSuitesTest.localSuitesTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LocalConnectionTest" />
+        <item itemvalue="TestNG.LocalSuitesTest.localSuitesTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -20,8 +20,8 @@ public class DriverFactory implements MobileCapabilityTypeEx {
         desiredCapabilities.setCapability(PLATFORM_NAME, "android");
         desiredCapabilities.setCapability(AUTOMATION_NAME, "uiautomator2");
         desiredCapabilities.setCapability(UDID, "emulator-5554");
-        desiredCapabilities.setCapability(APP_PACKAGE, "com.wdiodemoapp");
-        desiredCapabilities.setCapability(APP_ACTIVITY, "com.wdiodemoapp.MainActivity");
+        desiredCapabilities.setCapability(APP_PACKAGE, "com.tuhuynh.sdetproecommerce");
+        desiredCapabilities.setCapability(APP_ACTIVITY, "host.exp.exponent.MainActivity");
 
         URL appiumSever = null;
         try {
@@ -43,7 +43,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
                 break;
         }
         // implicit wait
-        appiumDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         return appiumDriver;
     }
 
@@ -85,8 +85,8 @@ public class DriverFactory implements MobileCapabilityTypeEx {
                 case android:
                     desiredCaps.setCapability(AUTOMATION_NAME, "uiautomator2");
                     desiredCaps.setCapability(UDID, udid);
-                    desiredCaps.setCapability(APP_PACKAGE, "com.wdiodemoapp");
-                    desiredCaps.setCapability(APP_ACTIVITY, "com.wdiodemoapp.MainActivity");
+                    desiredCaps.setCapability(APP_PACKAGE, "com.tuhuynh.sdetproecommerce");
+                    desiredCaps.setCapability(APP_ACTIVITY, "host.exp.exponent.MainActivity");
                     desiredCaps.setCapability(SYSTEM_PORT, systemPort);
                     appiumDriver = new AndroidDriver<>(appiumServer, desiredCaps);
                     break;
@@ -101,7 +101,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
             }
 
             // Implicit wait | Interval time 500ms
-            appiumDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+            appiumDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         }
 
         return appiumDriver;

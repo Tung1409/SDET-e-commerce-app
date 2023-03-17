@@ -11,20 +11,20 @@ import test_data.models.LoginData;
 import test_flows.authentication.LoginFlow;
 import tests.BaseTest;
 
-public class LoginWithCorrectDataTest extends BaseTest {
-    private final By userPhoneSel = MobileBy.AccessibilityId("userPhone");
+public class LoginWithIncorrectDataTest extends BaseTest {
+    private final By loginNotificationSel = MobileBy.AccessibilityId("userPhone");
 
+    // TODO dang khong bat duoc Selector
     @Test(dataProvider = "loginData")
     public void loginWithCorrectData(LoginData loginData){
         LoginFlow loginFlow = new LoginFlow(getDriver(), loginData.getEmail(), loginData.getPassword());
         loginFlow.goToUserPage();
         loginFlow.login();
         WebDriverWait wait = new WebDriverWait(getDriver(), 5L);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(userPhoneSel));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(loginNotificationSel));
 
     }
 
-//TODO write test flow
     @DataProvider
     private LoginData[] loginData(){
         String fileLocation = "\\src\\main\\java\\test_data\\authentication\\IncorrectLoginData.json";

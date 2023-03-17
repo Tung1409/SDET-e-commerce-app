@@ -7,8 +7,8 @@ import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
 import org.testng.annotations.Optional;
+import org.testng.annotations.*;
 import platform.Platform;
 
 import java.io.File;
