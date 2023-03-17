@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HomePage {
 
     private final By searchInputSel = MobileBy.AccessibilityId("searchInput");
+    private final By matchedItemSel = MobileBy.AccessibilityId("matchedItem");
     private final By productBrandSel = MobileBy.AccessibilityId("productName");
     private final By homeBackBtnSel = MobileBy.AccessibilityId("Home, back");
     private final By productNameSel = MobileBy.AccessibilityId("productBrand");
@@ -27,9 +28,12 @@ public class HomePage {
     }
 
     public void searchAndClickOnItem(String itemName){
+        appiumDriver.findElement(searchInputSel).click();
         appiumDriver.findElement(searchInputSel).sendKeys(itemName);
-        appiumDriver.findElement(productBrandSel).click();
-        WebDriverWait wait = new WebDriverWait(appiumDriver, 3L);
+        WebDriverWait wait = new WebDriverWait(appiumDriver, 5L);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(matchedItemSel));
+        appiumDriver.findElement(matchedItemSel).click();
+        appiumDriver.findElement(matchedItemSel).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeBackBtnSel));
     }
 
